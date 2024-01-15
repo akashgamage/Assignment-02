@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Flex:300,600,200,400,700|Poppins:300,600|Inter:400");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero .overlap {
+  display: inline-flex;
+  flex-direction:column;
+  align-items: center;
+  position:relative;
+  top: 151px;
+}
+
+.hero .blue {
+  position: absolute;
+  width: 100%;
+  height: 384px;
+  top: 245px;
+  background-color: #5F56E7;
+}
+
+.hero .nav-bar {
+  display: flex;
+  width: 100%;
+  gap: 501px;
+  padding: 16px 235px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000014;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .logo {
+  position: relative;
+  width: 149px;
+  height: 51px;
+}
+
+.hero .nav-itema {
+  display: flex;
+  width: 570px;
+  gap: 24px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .navitem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hero .nav-text {
+  position: relative;
+  width: fit-content;
+  /* margin-top: -10px; */
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.hero .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  padding-block: 12px;
+  padding-inline: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .button-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.hero .hero-text {
+  display: inline-flex;
+  flex-direction:column;
+  align-items: center;
+  position:relative;
+  top: 130px;
+}
+
+h1 {
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: bolder;
+  color: #282828;
+  font-size: 56px;
+  letter-spacing: 8;
+  line-height: 0px;
+}
+
+h2 {
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 200;
+  color: #282828;
+  font-size: 44px;
+  line-height: 0px;
+}
+
+h5 {
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 200;
+  color: #282828;
+  font-size: 24px;
+  line-height: 0px;
+}
+
+.hero .pricing {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+  position:relative;
+}
+
+.hero .card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #000000;
+  width: 300px;
+}
+
+.hero .card .cardlist {
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.hero p {
+  color: #000000;
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.hero .price {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  line-height: 0;
+}
+
+.price p {
+  margin-top: -1px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  line-height: 0;
+}
+
+.hero .span {
+  font-weight: 600;
+  line-height: 0;
+}
+
+.hero .spn {
+  font-size: 20px;
+  line-height: 0;
+}
+
+.hero .small {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: -1px;
+}
+
+.ul .small {
+  font-family: "Poppins", Helvetica;
+  font-weight:500;
+  display: flex;
+  justify-content: center;
+  padding-block: 10px;
+  opacity: 1;
+}
+
+.ul .small img {
+  width: 24px;
+  margin-right: 16px;
+  margin-left: -40px;
+}
+
+.hero .card2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #10170F;
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #000000;
+  width: 300px;
+}
+
+.hero .card2 p {
+  color: #ffffff;
+}
+
+.hero .card2 .small {
+  color: #ffffff;
+}
+
+.hero .button2 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  padding-block: 12px;
+  padding-inline: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .nav-button2 :hover {
+  color: #1100ff;
+}
+
+.hero .button2-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.hero .custom {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-left: 40px;
+}
+
+.hero .image {
+  position: relative;
+  width: 375px;
+  height: 350px;
+}
+
+.hero .custom-text {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
