@@ -34,9 +34,10 @@
   width: 100%;
   gap: 501px;
   padding: 16px 235px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px #00000014;
   align-items: center;
@@ -49,7 +50,7 @@
   height: 51px;
 }
 
-.hero .nav-itema {
+.hero .nav-items {
   display: flex;
   width: 570px;
   gap: 24px;
@@ -69,31 +70,28 @@
 }
 
 .hero .nav-text {
-  position: relative;
-  width: fit-content;
-  /* margin-top: -10px; */
   font-family: "Roboto Flex", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+}
+
+.hero .nav-text:hover {
+  color: #5F56E7;
+  cursor: pointer;
 }
 
 .hero .button {
   all: unset;
-  box-sizing: border-box;
-  display: inline-flex;
-  gap: 10px;
   padding-block: 12px;
-  padding-inline: 32px;
-  position: relative;
-  flex: 0 0 auto;
+  padding-inline: 40px;
   background-color: #000000;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
+}
+
+.hero .button:hover {
+  background-color: #5F56E7;
+  cursor: pointer;
 }
 
 .hero .button-text {
@@ -257,21 +255,20 @@ h5 {
 
 .hero .button2 {
   all: unset;
-  box-sizing: border-box;
-  display: inline-flex;
-  gap: 10px;
   padding-block: 12px;
-  padding-inline: 32px;
-  position: relative;
-  flex: 0 0 auto;
+  padding-inline: 40px;
   background-color: #ffffff;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
 }
 
-.hero .nav-button2 :hover {
-  color: #1100ff;
+.hero .button2:hover {
+  background-color: #5F56E7;
+  cursor: pointer;
+}
+
+.hero .custom .button2:hover {
+  background-color: #000000;
+  cursor: pointer;
 }
 
 .hero .button2-text {
@@ -285,6 +282,10 @@ h5 {
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.hero .button2-text:hover {
+  color: #ffffff;
 }
 
 
